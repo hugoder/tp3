@@ -1,0 +1,11 @@
+.btn {
+    display: inline;
+    margin-left: 2%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 10px;
+    outline: none;
+}
+.btn:hover {
+    cursor: pointer;
+}

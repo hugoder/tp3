@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import profil from './Component/profil';
+import Profil from './Component/Profil.js';
+import Bouton from './Component/Bouton.js';
 import jeanne from './Component/ppjeanne.jpg';
 
 class App extends Component {
@@ -23,14 +24,19 @@ class App extends Component {
           </p>
         </header>
         <hr/>
+        <div className="bouton">
+        <Bouton clicked="Jeanne"></Bouton>
+        
+        
+        </div>
         <center>
         <div className="profil">
-        <profil>
+        <Profil>
         <img className="img"src={jeanne} width="150 px" height="150px" />
         <p className="prenom">{this.state.prenom}</p>
         <p className="nom">{this.state.nom}</p>
         <p className="date"> Né(e) le : {this.state.date}</p>
-        </profil>
+        </Profil>
         </div>
         </center>
       </div>

@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import './profil.css';
+import './Profil.css';
 
-class profil extends Component {
+class Profil extends Component {
   constructor()
   {
     super();
@@ -18,3 +18,4 @@ class profil extends Component {
     }
   }
   
+  export default Profil;
