@@ -11,6 +11,7 @@ class App extends Component {
     this.state = {
       prenom : "Jeanne",
       nom : "Durand",
+      date :"06/10/1993"
     }
   }
   render() {
@@ -26,8 +27,9 @@ class App extends Component {
         <div className="profil">
         <profil>
         <img className="img"src={jeanne} width="150 px" height="150px" />
-        <p>{this.state.prenom}</p>
-        <p>{this.state.nom}</p>
+        <p className="prenom">{this.state.prenom}</p>
+        <p className="nom">{this.state.nom}</p>
+        <p className="date"> Né(e) le : {this.state.date}</p>
         </profil>
         </div>
         </center>
