@@ -16,6 +16,11 @@
   font-size: calc(10px + 2vmin);
   color: black;
 }
+.btn{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 
 @keyframes App-logo-spin {
   from {

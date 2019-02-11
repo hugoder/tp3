@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 import './Bouton.css';
 
+
 class Bouton extends Component {
 
-      render() {
-        return (
-                    <Bouton onClick={this.props.clicked} className="bouton">{this.props.prenom}</Bouton>
-                );
-            }
-        }
-
-    export default Bouton;
+    render() {
+      return (
+                  <button className="bouton" onClick={this.props.clicked} className="bouton">{this.props.prenom}</button>
+              );
+          }
+      }
+      export default Bouton;
