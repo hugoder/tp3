@@ -10,6 +10,7 @@ class App extends Component {
   {
     super(props);
     this.state = {
+      image : jeanne,
       prenom : "Jeanne",
       nom : "Durand",
       date :"06/10/1993"
@@ -24,20 +25,11 @@ class App extends Component {
           </p>
         </header>
         <hr/>
-        <div className="bouton">
-        <Bouton clicked="Jeanne"></Bouton>
         
         
-        </div>
+        
         <center>
-        <div className="profil">
-        <Profil>
-        <img className="img"src={jeanne} width="150 px" height="150px" />
-        <p className="prenom">{this.state.prenom}</p>
-        <p className="nom">{this.state.nom}</p>
-        <p className="date"> Né(e) le : {this.state.date}</p>
-        </Profil>
-        </div>
+        <Profil image={this.state.image} nom={this.state.nom} prenom={this.state.prenom} date={this.state.date}/>
         </center>
       </div>
     );

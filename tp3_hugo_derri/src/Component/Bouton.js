@@ -2,9 +2,10 @@ import React, { Component } from 'react';
 import './Bouton.css';
 
 class Bouton extends Component {
+
       render() {
         return (
-                    <bouton onClick={props.clicked} className="bouton">{props.prenom}</bouton>
+                    <Bouton onClick={this.props.clicked} className="bouton">{this.props.prenom}</Bouton>
                 );
             }
         }

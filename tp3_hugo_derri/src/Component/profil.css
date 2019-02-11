@@ -1,7 +1,7 @@
 .profil{
     height: 500px;
     width: 700px;
-    border-width: 30px;
+    border-width: 20px;
     border: 3px solid black;
 }
 
@@ -33,6 +33,6 @@
     margin-right: auto;
     overflow:hidden;
     border-radius:70px;
-    width: 0 px;
+    width: 40 px;
     height: 10 px;
 }
